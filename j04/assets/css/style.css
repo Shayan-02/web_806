@@ -1,0 +1,28 @@
+*{
+    background-color: rgb(168, 251, 210);
+}
+
+h1, h2{
+    font-size: 20px;
+}
+
+#hello, #hi{
+    margin: 10px;
+    padding: 10px 5px 3px 6px;
+}
+
+.name{
+    color:rgb(0, 0, 255);
+}
+
+p{
+    font-weight: bold;
+}
+
+#flutter{
+    width: 200;
+    height: 200px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 20px;
+    
+}

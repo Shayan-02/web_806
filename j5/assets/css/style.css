@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'vazir';
+    src: url(/j5/assets/fonts/Vazir.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'vazir';
+}
+
+header nav ul{
+    list-style-type: none;
+    background-color: rgb(186, 18, 0);
+    height: 35px;
+    text-align: center;
+}
+
+header nav ul li{
+    display: inline;
+    margin-right: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}

@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'vazir';
+    src: url(/j5/assets/fonts/VAZIR.TTF);
+}
+
+
+
+.d1 p{
+    display: block;
+    font-family: 'vazir';
+    font-size: 20px;
+}
+
+.d1{
+    background-color: rgb(252, 95, 95);
+}
+
+.d1:hover{
+    cursor: pointer;
+
+}
+
+/* .d1:hover p{
+    display: none;
+} */
+
+#p1{
+    font-weight: bold;
+    color: rgba(33, 21, 255, 0.629);
+}
+
+.p2{
+    font-family: 'vazir';
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-align: center;
+}
+
+.s1{
+    font-size: 20px;
+}

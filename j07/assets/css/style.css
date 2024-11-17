@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: end;
+  height: 200px;
+}
+
+
+.item {
+  padding: 48px;
+
+  background-color: cyan;
+  border: 1px solid black;
+}
+
+.second {
+  flex-grow: 2;
+}
+
+.first, .third {
+  flex-grow: 3;
+}

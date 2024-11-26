@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "IranYekan";
+    src:
+        url("assets/font/IRANyekan.ttf");
+}
+
+* {
+    font-family: "IranYekan";
+    box-sizing: border-box;
+}
+
+body {
+    margin: 20px;
+    background-color: #EAEBFD;
+}
+
+.quiz-container {
+    max-width: 800px;
+    padding: 20px;
+}
+
+.question {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+button {
+    min-width: 150px;
+    background-color: #DFDBF2;
+    border: 1px solid #c2bde0;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding-right: 0;
+}
+
+button .number {
+    width: 1.75rem;
+    height: 1.75rem;
+    background-color: #794997;
+    color: white;
+    border-radius: 4px;
+    margin: 4px;
+}
+
+button .text {
+    text-align: right;
+}

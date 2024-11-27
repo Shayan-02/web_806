@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+  width: 100;
+  height: 280px;
+  grid-template-columns: 1fr 2fr 3fr 1fr 2fr;
+  grid-template-rows: 25% 100px auto;
+}
+
+
+.item {
+  background-color: cyan;
+  border: 1px solid black;
+}

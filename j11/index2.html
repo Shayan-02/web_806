@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Element</title>
+    <link rel="stylesheet" href="style2.css" />
+    <style>
+      .container {
+        display: flex;
+        flex-direction: row;
+      }
+
+      .element {
+        display: block;
+      }
+
+      @media only screen and (max-width: 600px) {
+        .container {
+          flex-direction: column;
+          background-color: red;
+          color: green;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <p class="element">This is the element to show/hide</p>
+      <p class="element">This is the element to show/hide</p>
+      <p class="element">This is the element to show/hide</p>
+      <p class="element">This is the element to show/hide</p>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,48 @@
+.header,
+.home,
+.features-item:hover,
+.testimonial::before,
+.newsletter::before {
+  background-color: #bf360c;
+}
+
+.home .home-btn,
+.about ul li svg,
+.features-item svg,
+.testimonial .testi-item .client-info-desc h5,
+.testimonial .owl-carousel button.owl-next,
+.testimonial .owl-carousel button.owl-prev,
+.contact .contact-item svg,
+.footer ul li:hover svg {
+  color: #bf360c;
+}
+
+header #collapsibleNavbar .navbar-nav .nav-item .nav-link:hover{
+  color: rgb(14, 252, 86);
+}
+
+.title h6,
+.features-item:hover,
+.products .owl-carousel button.owl-next,
+.products .owl-carousel button.owl-prev,
+.testimonial .owl-carousel button.owl-next:hover,
+.testimonial .owl-carousel button.owl-prev:hover,
+.newsletter .newsletter-form button,
+.contact .contact-form button,
+.footer {
+  background-color: #bf360c;
+  color: #fff;
+}
+
+.contact .contact-form button {
+  border: 3px solid #bf360c;
+}
+
+.contact .contact-form input:focus,
+.contact .contact-form textarea:focus {
+  border-bottom: 2px solid #bf360c;
+}
+
+.footer .copy-right {
+  border-top: 1px solid #ec4f1f;
+}

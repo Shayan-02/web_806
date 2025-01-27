@@ -1,0 +1,61 @@
+.header,
+.home,
+.features-item:hover,
+.testimonial::before,
+.newsletter::before {
+  background-color: #263238;
+}
+
+.home .home-btn,
+.about ul li svg,
+.features-item svg,
+.testimonial .testi-item .client-info-desc h5,
+.testimonial .owl-carousel button.owl-next,
+.testimonial .owl-carousel button.owl-prev,
+.contact .contact-item svg,
+.footer ul li:hover svg {
+  color: #263238;
+}
+
+header #collapsibleNavbar .navbar-nav .nav-item .nav-link{
+  color: rgb(129, 129, 129);
+}
+
+header #collapsibleNavbar .navbar-nav .nav-item .nav-link:hover{
+  color: rgb(255, 255, 255);
+}
+
+header #collapsibleNavbar .navbar-nav .nav-item .nav-link.active {
+  color: rgb(129, 129, 129);
+  opacity: 1;
+}
+
+header #collapsibleNavbar .navbar-nav .nav-item .nav-link.active:hover {
+  color: rgb(255, 255, 255);
+}
+
+.title h6,
+.features-item:hover,
+.products .owl-carousel button.owl-next,
+.products .owl-carousel button.owl-prev,
+.testimonial .owl-carousel button.owl-next:hover,
+.testimonial .owl-carousel button.owl-prev:hover,
+.newsletter .newsletter-form button,
+.contact .contact-form button,
+.footer {
+  background-color: #263238;
+  color: #fff;
+}
+
+.contact .contact-form button {
+  border: 3px solid #263238;
+}
+
+.contact .contact-form input:focus,
+.contact .contact-form textarea:focus {
+  border-bottom: 2px solid #263238;
+}
+
+.footer .copy-right {
+  border-top: 1px solid #3a4a52;
+}
